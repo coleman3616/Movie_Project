@@ -1,0 +1,25 @@
+---
+title: "Movie_Data_Set"
+author: "Stryder R. Coleman, Matthew Warren, Patrick Wilbur"
+date: "7/14/2021"
+output: word_document
+---
+
+```{r packages}
+  # This section contains all of the packages used in the project
+  library(tidyverse)
+  library(readr)
+  
+```
+
+```{r imports}
+  # Every file imported into the data set
+  read_csv("credits.csv")
+  read_csv("keywords.csv")
+  read_csv("links_small.csv")
+  read_csv("links.csv")
+  read_csv("movies_metadata.csv")
+  read_csv("ratings_small.csv")
+  read_csv("ratings.csv")
+
+```
